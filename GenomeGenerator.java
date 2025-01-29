@@ -8,7 +8,7 @@ public class GenomeGenerator
         {
             System.out.println("Enter a Name");
             name = reader.nextLine();
-            System.out.println(name + "'s Genome: " + extrapolateString(name));
+            System.out.println(name + "'s Genome: " + toGenome(extrapolateString(name), false));
             
         }
     }
